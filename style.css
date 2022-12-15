@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.main{
+    position: relative;
+    top: 300px;
+    
+}
+button {
+    background-color: blue;
+    outline: none;
+    color: white;
+    margin-left: 25px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* text-align: center; */
+}
+button:hover{
+    background-color: red;
+}
+
+input {
+    outline: none;
+    padding: 15px 25px;
+    /* border: none; */
+    border: 2px solid white;
+    color: white;
+    /* text-align: center; */
+    box-shadow: 10px 5px 3px gray;
+}
+input::placeholder{
+    color: white;
+}
+p{
+    color: white;
+    margin-right: 130px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    #notfound{
+        display: none;
+    }
